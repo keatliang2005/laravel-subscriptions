@@ -48,7 +48,7 @@
         "illuminate/database": ">=13.0",
         "illuminate/support": ">=13.0",
         "rinvex/laravel-support": "dev-master",
-        "spatie/eloquent-sortable": "^4.0.0",
+        "spatie/eloquent-sortable": ">=5.0",
         "spatie/laravel-sluggable": ">=3",
         "spatie/laravel-translatable": ">=6"
     },
