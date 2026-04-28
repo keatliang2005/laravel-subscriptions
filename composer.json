@@ -44,9 +44,9 @@
     ],
     "require": {
         "php": "^8.0.0",
-        "illuminate/console": "^10.0.0 || ^11.0.0 || ^12.0.0",
-        "illuminate/database": "^10.0.0 || ^11.0.0 || ^12.0.0",
-        "illuminate/support": "^10.0.0 || ^11.0.0 || ^12.0.0",
+        "illuminate/console": ">=13.0",
+        "illuminate/database": ">=13.0",
+        "illuminate/support": ">=13.0",
         "rinvex/laravel-support": "dev-master",
         "spatie/eloquent-sortable": "^4.0.0",
         "spatie/laravel-sluggable": "^3.3.0",
@@ -54,8 +54,8 @@
     },
     "require-dev": {
         "codedungeon/phpunit-result-printer": "^0.31.0",
-        "illuminate/container": "^10.0.0 || ^11.0.0 || ^12.0.0",
-        "phpunit/phpunit": "^9.5.0 || ^10.0 || ^12.0.0"
+        "illuminate/container": ">=13.0",
+        "phpunit/phpunit": ">=12.0"
     },
     "autoload": {
         "psr-4": {
