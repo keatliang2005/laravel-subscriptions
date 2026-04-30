@@ -168,6 +168,7 @@ class PlanSubscription extends Model
     /**
      * {@inheritdoc}
      */
+    #[\Override]
     protected static function boot()
     {
         parent::boot();

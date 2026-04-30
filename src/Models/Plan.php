@@ -201,6 +201,7 @@ class Plan extends Model implements Sortable
     /**
      * {@inheritdoc}
      */
+    #[\Override]
     protected static function boot()
     {
         parent::boot();

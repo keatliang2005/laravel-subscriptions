@@ -156,6 +156,7 @@ class PlanFeature extends Model implements Sortable
     /**
      * {@inheritdoc}
      */
+    #[\Override]
     protected static function boot()
     {
         parent::boot();
